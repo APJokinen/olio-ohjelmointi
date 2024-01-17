@@ -27,7 +27,6 @@ int game(int maxnum){
         int arvattava = rand() % (maxnum);
         arvattava += 1;
         int arvaus;
-        cout << "Arvaus väliltä 1-" << maxnum << endl;
         cin >> arvaus;
         laskuri += 1;
         if (arvaus == arvattava){
