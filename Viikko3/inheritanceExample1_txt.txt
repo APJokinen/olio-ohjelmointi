@@ -1,0 +1,8 @@
+Animal <----- Cat
+
+Cat luokalla pääsy kaikkiin Animal luokan
+-public tyyppeihin
+-protected tyyppeihin
+
+Cat-luokan oliolla pääsy kaikkiin Animal-luokan
+-public tyyppeihin
