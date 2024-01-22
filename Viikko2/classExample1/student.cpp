@@ -1,32 +1,23 @@
 #include "student.h"
 
+string Student::getFname() const { return fname; }
 
-string Student::getFname() const
-{
-    return fname;
+void Student::setFname(const string &newFname) { fname = newFname; }
+
+string Student::getLname() const { return lname; }
+
+void Student::setLname(const string &newLname) { lname = newLname; }
+
+void Student::studentInfo() {
+  cout << "Etunimeni on " << fname << " sukunimeni on " << lname << endl;
 }
 
-void Student::setFname(const string &newFname)
+Student::Student() { cout << "Luokan muodostin" << endl; }
+
+Student::Student(string fn, string ln)
 {
-    fname = newFname;
+  fname = fn;
+  lname=ln;
 }
 
-string Student::getLname() const
-{
-    return lname;
-}
-
-void Student::setLname(const string &newLname)
-{
-    lname = newLname;
-}
-
-void Student::studentInfo()
-{
-    cout << "Etunimeni on " << fname << " sukunimeni on " << lname << endl;
-}
-
-Student::Student()
-{
-
-}
+Student::~Student() { cout << "Luokan tuhoaja" << endl; }

@@ -15,5 +15,8 @@ int main()
     objectStudent1.setFname("Teppo");
     objectStudent1.setLname("Testi");
     objectStudent1.studentInfo();
+
+    Student objectStudent2("Aino", "Joki");
+    objectStudent2.studentInfo();
     return 0;
 }
