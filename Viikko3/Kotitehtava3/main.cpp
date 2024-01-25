@@ -24,11 +24,10 @@ int main()
     kokki1.makeSoup();
     */
     //Tehtävä 4:
-    /*
     int jauhot = 250;
     int vesi = 100;
     ItalianChef kokki1("Mario",vesi, jauhot);
     kokki1.makePasta(vesi, jauhot);
-    */
+
     return 0;
 }

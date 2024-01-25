@@ -8,19 +8,24 @@ using namespace std;
 
 class ItalianChef: public Chef
 {
-    //tehtävä 4 lisäys privateen:
+
 private:
+    //tehtävä 4:
     int vesi, jauhot;
 public:
-    //tehtävä 4:
-    //ItalianChef(string name, int, int);
+     string getName();
+
     //tehtävä 3:
-    ItalianChef(string name);
-    string getName();
-    //Tehtävä 4:
-    //void makePasta(int, int);
-    //Tehtävä 3:
-    void makePasta();
+    //ItalianChef(string name);
+    //void makePasta();
+
+    //tehtävä 4:
+    ItalianChef(string name, int, int);
+     void makePasta(int, int);
+
+
+
+
 };
 
 #endif // ITALIANCHEF_H
