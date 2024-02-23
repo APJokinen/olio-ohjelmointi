@@ -51,7 +51,7 @@ void MainWindow::timeout()
 
 void MainWindow::on_btnAika1_clicked()
 {
-    gameTime = 12;
+    gameTime = 120;
     setGameInfoText("ready to play", 11);
 
     player1Time=gameTime;
